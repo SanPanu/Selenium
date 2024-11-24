@@ -1,0 +1,4 @@
+22:22:51.367 [main] INFO  testCases.TC_001_AccountRegistration - **** Started Exicuting TC_001_AccountRegistration **** 
+22:22:51.593 [main] INFO  testCases.TC_001_AccountRegistration - Clicked On My Account
+22:22:52.660 [main] INFO  testCases.TC_001_AccountRegistration - Providing Customer details....
+22:22:54.876 [main] INFO  testCases.TC_001_AccountRegistration - Validating Registering Account
