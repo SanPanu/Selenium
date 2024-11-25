@@ -13,7 +13,7 @@ public class TC_001_AccountRegistration extends BaseClass
 	
 	
 	@Test
-	public void register() throws InterruptedException
+	public void register() 
 	{
 		logger.info("**** Started Exicuting TC_001_AccountRegistration **** ");
 		
