@@ -28,7 +28,7 @@ public class LoginPage extends BasePage
 	
 	public void enterPassword(String pass)
 	{
-		emailfield.sendKeys(pass);
+		passwordfield.sendKeys(pass);
 	}
 	
 	public void clickLoginButton()
