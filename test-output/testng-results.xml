@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-26T19:34:32 IST" name="Default suite" finished-at="2024-11-26T19:34:57 IST" duration-ms="24607">
+  <suite started-at="2024-12-06T21:51:02 IST" name="Suite" finished-at="2024-12-06T21:52:02 IST" duration-ms="60158">
     <groups>
     </groups>
-    <test started-at="2024-11-26T19:34:32 IST" name="Default test" finished-at="2024-11-26T19:34:57 IST" duration-ms="24607">
-      <class name="testCases.TC_002_Login">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_002_Login@7dc0f706]" started-at="2024-11-26T19:34:32 IST" name="setUp" finished-at="2024-11-26T19:34:55 IST" duration-ms="22232" status="PASS">
+    <test started-at="2024-12-06T21:51:02 IST" name="Test" finished-at="2024-12-06T21:52:02 IST" duration-ms="60158">
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@45b4c3a9]" started-at="2024-12-06T21:51:31 IST" name="setUp" finished-at="2024-12-06T21:51:54 IST" duration-ms="22285" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testCases.TC_002_Login@7dc0f706]" started-at="2024-11-26T19:34:55 IST" name="login" finished-at="2024-11-26T19:34:57 IST" duration-ms="2065" status="PASS">
+        <test-method signature="register()[pri:0, instance:testCases.TC_001_AccountRegistration@45b4c3a9]" started-at="2024-12-06T21:51:54 IST" name="register" finished-at="2024-12-06T21:52:02 IST" duration-ms="7933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistration@45b4c3a9]" started-at="2024-12-06T21:52:02 IST" name="tearDown" finished-at="2024-12-06T21:52:02 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+      <class name="testCases.TC_002_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_002_Login@65d09a04]" started-at="2024-12-06T21:51:02 IST" name="setUp" finished-at="2024-12-06T21:51:27 IST" duration-ms="24526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:testCases.TC_002_Login@65d09a04]" started-at="2024-12-06T21:51:27 IST" name="login" finished-at="2024-12-06T21:51:31 IST" duration-ms="4469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@7dc0f706]" started-at="2024-11-26T19:34:57 IST" name="tearDown" finished-at="2024-11-26T19:34:57 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Login@65d09a04]" started-at="2024-12-06T21:51:31 IST" name="tearDown" finished-at="2024-12-06T21:51:31 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_Login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
