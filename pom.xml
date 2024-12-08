@@ -22,7 +22,7 @@
             <version>3.2.2</version>
             <configuration>
                 <suiteXmlFiles>
-                    <suiteXmlFile>src/test/resources/Suite.xml</suiteXmlFile>
+                    <suiteXmlFile>src/test/resourcess/testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
         </plugin>
