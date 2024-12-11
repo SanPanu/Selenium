@@ -21,6 +21,8 @@ public class HomePage extends BasePage
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	WebElement loginAccount;
 	
+	
+	
 	public void clickOnMyAccount()
 	{
 		myAccout.click();
